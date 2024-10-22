@@ -62,5 +62,14 @@
     "links": {
       "code": "https://github.com/Pranav6715/Spotify-Clone"
     }
+  },
+  {
+    "name": "Swarajya",
+    "desc": "Fort Guide Website. Using Html Css Javascript",
+    "image": "Swarajya",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Swarajya"
+    }
   }
 ]
