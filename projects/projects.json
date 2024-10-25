@@ -1,12 +1,12 @@
 [
 
   {
-    "name": "Shopify Shopping Website",
+    "name": "E-COMMERCE-WEBSITE",
     "desc": "I have tried to build a complete e-commerce website using simple JSP, JAVA and Servlet.",
     "image": "Shopify",
     "category": "javaprojects",
     "links": {
-      "code": "https://github.com/Pranav6715/Shopify-Shopping-Website"
+      "code": "https://github.com/Pranav6715/E-COMMERCE-WEBSITE"
     }
   },
   {
