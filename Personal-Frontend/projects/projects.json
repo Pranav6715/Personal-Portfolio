@@ -1,0 +1,65 @@
+[
+  {
+    "name": "E-COMMERCE-WEBSITE",
+    "desc": "I have tried to build a complete e-commerce website using simple JSP, JAVA and Servlet.",
+    "image": "Ecom",
+    "category": "javaprojects",
+    "links": {
+      "code": "https://github.com/Pranav6715/E-COMMERCE-WEBSITE"
+    }
+  },
+  {
+    "name": "University Management System",
+    "desc": "University-Management-System Using Java",
+    "image": "University",
+    "category": "javaprojects",
+    "links": {
+      "code": "https://github.com/Pranav6715/University-Management-System"
+    }
+  },
+  {
+    "name": "Amazon Clone Ui",
+    "desc": "This project is a non-clickable User Interface (UI) clone of the popular e-commerce platform, Amazon.",
+    "image": "Amazon",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Amazon-Clone-Ui-"
+    }
+  },
+  {
+    "name": "Personal-Portfolio",
+    "desc": "Portfolio Using HTML CSS JavaScript",
+    "image": "Personal-portfolio",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Personal-Portfolio.git"
+    }
+  },
+  {
+    "name": "Spotify-Clone",
+    "desc": "Spotify-Clone Using Html and css",
+    "image": "spotify",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Spotify-Clone"
+    }
+  },
+  {
+    "name": "Swarajya",
+    "desc": "Fort Guide Website. Using Html Css Javascript",
+    "image": "Swarajya",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Swarajya"
+    }
+  },
+  {
+    "name": "Chat-App",
+    "desc": "real time chatapp",
+    "image": "chat-app",
+    "category": "javaprojects",
+    "links": {
+      "code": "https://github.com/Pranav6715/chat-app"
+    }
+  }
+]
