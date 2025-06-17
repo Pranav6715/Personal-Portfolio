@@ -378,9 +378,6 @@
             Thank you for visiting my personal portfolio website. Connect with
             me over socials.
           </p>
-          <div>
-            <h3>👥 Visitor Count: <span id="visitor-count">0</span></h3>
-          </div>
         </div>
 
         <div class="box">
@@ -483,14 +480,6 @@
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
     <script src="./assets/js/script.js"></script>
-    <script>
-      let count = localStorage.getItem("visitorCount");
-      if (!count) {
-        count = 100;
-      }
-      count = Number(count) + 1;
-      localStorage.setItem("visitorCount", count);
-      document.getElementById("visitor-count").textContent = count;
-    </script>
+  
   </body>
 </html>
