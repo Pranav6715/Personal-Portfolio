@@ -45,15 +45,6 @@
     }
   },
   {
-    "name": "Swarajya",
-    "desc": "Fort Guide Website. Using Html Css Javascript",
-    "image": "Swarajya",
-    "category": "basicweb",
-    "links": {
-      "code": "https://github.com/Pranav6715/Swarajya"
-    }
-  },
-  {
     "name": "Chat-App",
     "desc": "real time chatapp",
     "image": "chat-app",
