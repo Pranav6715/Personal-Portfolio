@@ -75,8 +75,6 @@ $(document).ready(function () {
         msgSpan.style.display = "inline-block";
     });
 });
-    // <!-- emailjs to mail contact form data -->
-
 });
 
 document.addEventListener('visibilitychange',
