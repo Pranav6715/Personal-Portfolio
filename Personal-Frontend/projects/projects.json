@@ -18,15 +18,6 @@
     }
   },
   {
-    "name": "Amazon Clone Ui",
-    "desc": "This project is a non-clickable User Interface (UI) clone of the popular e-commerce platform, Amazon.",
-    "image": "Amazon",
-    "category": "basicweb",
-    "links": {
-      "code": "https://github.com/Pranav6715/Amazon-Clone-Ui-"
-    }
-  },
-  {
     "name": "Personal-Portfolio",
     "desc": "Portfolio Using HTML CSS JavaScript",
     "image": "Personal-portfolio",
