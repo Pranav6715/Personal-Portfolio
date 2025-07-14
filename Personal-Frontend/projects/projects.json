@@ -43,5 +43,14 @@
     "links": {
       "code": "https://github.com/Pranav6715/chat-app"
     }
+  },
+  {
+    "name": "Wanderlust",
+    "desc": "Wanderlust",
+    "image": "wanderlust",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Wanderlust"
+    }
   }
 ]
