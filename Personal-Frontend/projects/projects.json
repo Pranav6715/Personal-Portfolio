@@ -52,5 +52,14 @@
     "links": {
       "code": "https://github.com/Pranav6715/Wanderlust"
     }
+  },
+  {
+    "name": "Weather",
+    "desc": "Weather",
+    "image": "weather",
+    "category": "basicweb",
+    "links": {
+      "code": "https://github.com/Pranav6715/Wanderlust"
+    }
   }
 ]
