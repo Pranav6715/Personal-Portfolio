@@ -63,10 +63,6 @@
     "name": "GitHub",
     "icon": "https://img.icons8.com/color/48/github--v1.png"
   },
- {
-  "name": "Maven",
-  "icon": "https://maven.apache.org/images/maven-logo-black-on-white.png"
-},
   {
     "name": "Postman",
     "icon": "https://cdn.iconscout.com/icon/free/png-256/free-postman-3521648-2945092.png"
