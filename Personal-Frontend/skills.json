@@ -6,6 +6,10 @@
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
+        "name": "SpringBoot",
+        "icon": "https://img.icons8.com/color/48/000000/spring-boot.png"
+    },
+    {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
