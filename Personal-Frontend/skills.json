@@ -1,86 +1,82 @@
 [
   {
     "name": "Java",
-    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-  },
-  {
-    "name": "Core Java",
-    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    "icon": "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
   },
   {
     "name": "Spring Boot",
-    "icon": "https://img.icons8.com/color/48/000000/spring-boot.png"
+    "icon": "https://img.icons8.com/color/48/spring-boot.png"
   },
   {
     "name": "Spring Framework",
-    "icon": "https://img.icons8.com/color/48/000000/spring-logo.png"
+    "icon": "https://img.icons8.com/color/48/spring-logo.png"
   },
   {
     "name": "Hibernate",
-    "icon": "https://img.icons8.com/color/48/000000/hibernate.png"
+    "icon": "https://img.icons8.com/color/48/hibernate.png"
   },
   {
     "name": "JPA",
-    "icon": "https://img.icons8.com/color/48/000000/database.png"
+    "icon": "https://img.icons8.com/color/48/database.png"
   },
   {
     "name": "REST API",
-    "icon": "https://img.icons8.com/color/48/000000/api.png"
+    "icon": "https://img.icons8.com/color/48/api.png"
   },
   {
     "name": "Microservices",
-    "icon": "https://img.icons8.com/color/48/000000/microservices.png"
+    "icon": "https://img.icons8.com/color/48/microservices.png"
   },
   {
     "name": "JavaScript",
-    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    "icon": "https://img.icons8.com/color/48/javascript--v1.png"
   },
   {
     "name": "HTML5",
-    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    "icon": "https://img.icons8.com/color/48/html-5--v1.png"
   },
   {
     "name": "CSS3",
-    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    "icon": "https://img.icons8.com/color/48/css3.png"
   },
   {
     "name": "Bootstrap",
-    "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    "icon": "https://img.icons8.com/color/48/bootstrap.png"
   },
   {
     "name": "ReactJS",
-    "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    "icon": "https://img.icons8.com/color/48/react-native.png"
   },
   {
     "name": "Material UI",
-    "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+    "icon": "https://img.icons8.com/color/48/material-ui.png"
   },
   {
     "name": "Oracle DB",
-    "icon": "https://img.icons8.com/color/48/000000/oracle-logo.png"
+    "icon": "https://img.icons8.com/color/48/oracle-logo.png"
   },
   {
     "name": "MongoDB",
-    "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    "icon": "https://img.icons8.com/color/48/mongodb.png"
   },
   {
     "name": "Git",
-    "icon": "https://img.icons8.com/color/48/000000/git.png"
+    "icon": "https://img.icons8.com/color/48/git.png"
   },
   {
     "name": "GitHub",
-    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    "icon": "https://img.icons8.com/color/48/github--v1.png"
   },
   {
     "name": "Maven",
-    "icon": "https://img.icons8.com/color/48/000000/maven-ios.png"
+    "icon": "https://img.icons8.com/color/48/maven-ios.png"
   },
   {
     "name": "Postman",
-    "icon": "https://img.icons8.com/color/48/000000/postman-api.png"
+    "icon": "https://img.icons8.com/color/48/postman-api.png"
   },
   {
     "name": "Netlify",
-    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    "icon": "https://img.icons8.com/color/48/netlify.png"
   }
 ]
