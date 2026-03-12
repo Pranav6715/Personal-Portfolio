@@ -45,13 +45,13 @@ const Hero = () => {
             />
 
             <div className="container mx-auto px-6 md:px-12 z-10 text-gray-900 dark:text-white transition-colors duration-300">
-                <div className="max-w-3xl">
-                    <h2 className="text-gray-800 dark:text-gray-300 text-4xl md:text-6xl font-extrabold mb-4 leading-tight transition-colors duration-300">
+                <div className="max-w-4xl">
+                    <h2 className="text-gray-800 dark:text-gray-300 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight transition-colors duration-300">
                         Hi There<br />
                         <span className="text-gray-900 dark:text-white transition-colors duration-300">I'm Pranav </span>
                         <span className="text-[#ff7b00]">Ghaytadkar</span>
                     </h2>
-                    <p className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 font-medium mb-8 transition-colors duration-300">
+                    <p className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 font-medium mb-8 transition-colors duration-300">
                         i am into {' '}
                         <span className="text-[#00c3ff] font-bold">
                             <Typewriter

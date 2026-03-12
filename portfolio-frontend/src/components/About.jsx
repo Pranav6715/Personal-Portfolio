@@ -9,15 +9,15 @@ const About = () => {
                     <span>About <span className="text-[#ff7b00]">Me</span></span>
                 </h2>
 
-                <div className="flex flex-col md:flex-row items-center gap-12">
+                <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
                     {/* Image */}
-                    <div className="w-full md:w-1/3 flex justify-center">
+                    <div className="w-full md:w-2/5 flex justify-center order-first">
                         <div className="relative group">
-                            <div className="absolute -inset-2 bg-gradient-to-r from-[#00c3ff] to-[#ff7b00] rounded-xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
+                            <div className="absolute -inset-2 bg-gradient-to-r from-[#00c3ff] to-[#ff7b00] rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
                             <img
                                 src="/assets/images/pranav.jpg"
                                 alt="Pranav"
-                                className="relative rounded-xl shadow-2xl w-64 h-auto transform group-hover:scale-[1.02] transition-transform duration-500 border border-white/10"
+                                className="relative rounded-2xl shadow-2xl w-48 sm:w-56 md:w-full max-w-sm h-auto transform group-hover:scale-[1.02] transition-transform duration-500 border border-white/10"
                                 draggable="false"
                             />
                         </div>

@@ -43,18 +43,18 @@ const Contact = () => {
                     <span>Get in <span className="text-[#ff7b00]">Touch</span></span>
                 </h2>
 
-                <div className="flex flex-col md:flex-row items-center gap-12 bg-gray-50 dark:bg-white/5 backdrop-blur-md p-8 md:p-12 rounded-3xl shadow-2xl border border-gray-200 dark:border-white/10 transition-colors duration-300">
-                    <div className="w-full md:w-1/2 flex justify-center">
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 bg-gray-50 dark:bg-white/5 backdrop-blur-md p-6 sm:p-8 md:p-12 rounded-3xl shadow-2xl border border-gray-200 dark:border-white/10 transition-colors duration-300">
+                    <div className="w-full lg:w-1/2 flex justify-center order-first lg:order-none">
                         <img
                             draggable="false"
                             src="/assets/images/contact1.png"
                             alt="Contact"
-                            className="w-full max-w-sm drop-shadow-2xl hover:scale-105 transition-transform duration-500 opacity-90"
+                            className="w-2/3 sm:w-1/2 lg:w-full max-w-sm drop-shadow-2xl hover:scale-105 transition-transform duration-500 opacity-90"
                         />
                     </div>
 
-                    <div className="w-full md:w-1/2">
-                        <form onSubmit={handleSubmit} className="space-y-6">
+                    <div className="w-full lg:w-1/2">
+                        <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                             <div className="relative group">
                                 <input
                                     type="text"
@@ -63,7 +63,7 @@ const Contact = () => {
                                     onChange={handleChange}
                                     placeholder="Name"
                                     required
-                                    className="w-full pl-12 pr-4 py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium"
+                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base"
                                 />
                                 <i className="fas fa-user absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
                             </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                                     onChange={handleChange}
                                     placeholder="Email"
                                     required
-                                    className="w-full pl-12 pr-4 py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium"
+                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base"
                                 />
                                 <i className="fas fa-envelope absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
                             </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                                     value={formData.phone}
                                     onChange={handleChange}
                                     placeholder="Phone"
-                                    className="w-full pl-12 pr-4 py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium"
+                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base"
                                 />
                                 <i className="fas fa-phone-alt absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
                             </div>
@@ -101,15 +101,15 @@ const Contact = () => {
                                     placeholder="Message"
                                     required
                                     rows="4"
-                                    className="w-full pl-12 pr-4 py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium resize-none"
+                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium resize-none text-sm md:text-base"
                                 ></textarea>
                                 <i className="fas fa-comment-dots absolute left-4 top-5 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
                             </div>
 
-                            <div className="flex flex-col items-center gap-4">
+                            <div className="flex flex-col items-center gap-4 pt-2">
                                 <button
                                     type="submit"
-                                    className="w-full bg-[#ff7b00] hover:bg-[#e66f00] text-white py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex justify-center items-center gap-2 group"
+                                    className="w-full bg-[#ff7b00] hover:bg-[#e66f00] text-white py-3 md:py-4 rounded-xl font-bold text-base md:text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex justify-center items-center gap-2 group"
                                 >
                                     Send Message <i className="fa fa-paper-plane group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
                                 </button>
