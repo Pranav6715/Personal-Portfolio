@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-100 dark:bg-[#0b0b1a] py-8 border-t border-gray-200 dark:border-white/5 transition-colors duration-300">
+        <footer className="bg-[#f8fafc] dark:bg-[#02000d] py-8 border-t border-black/10 dark:border-white/5 transition-colors duration-300 relative z-10">
             <div className="container mx-auto px-6 md:px-12 text-center">
-                <div className="text-gray-600 dark:text-gray-500 text-xs sm:text-sm transition-colors duration-300 max-w-md mx-auto">
-                    <p>Copyright © 2025 by Pranav Ghaytadkar | All Rights Reserved</p>
+                <div className="text-gray-500 text-xs sm:text-sm tracking-widest uppercase transition-colors duration-300 max-w-md mx-auto">
+                    <p>&copy; {new Date().getFullYear()} by Pranav Ghaytadkar <br className="sm:hidden" /> | All Rights Reserved</p>
                 </div>
             </div>
         </footer>

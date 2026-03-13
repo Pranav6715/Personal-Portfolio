@@ -36,14 +36,16 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="py-20 bg-white dark:bg-[#0a192f] transition-colors duration-300">
-            <div className="container mx-auto px-6 md:px-12">
-                <h2 className="text-4xl font-extrabold text-center text-gray-900 dark:text-white mb-16 flex justify-center items-center gap-3 transition-colors duration-300">
-                    <i className="fas fa-headset text-[#ff7b00]"></i>
-                    <span>Get in <span className="text-[#ff7b00]">Touch</span></span>
+        <section id="contact" className="py-20 bg-transparent transition-colors duration-300 relative">
+             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-[#ff7b00]/5 rounded-t-full blur-[100px] z-[-1] pointer-events-none"></div>
+
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center text-gray-900 dark:text-white mb-10 sm:mb-16 flex justify-center items-center gap-3 sm:gap-4 tracking-tight transition-colors duration-300">
+                    <i className="fas fa-headset text-[#00c3ff]"></i>
+                    <span>Get in <span className="bg-gradient-to-r from-[#00c3ff] to-[#ff7b00] bg-clip-text text-transparent">Touch</span></span>
                 </h2>
 
-                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 bg-gray-50 dark:bg-white/5 backdrop-blur-md p-6 sm:p-8 md:p-12 rounded-3xl shadow-2xl border border-gray-200 dark:border-white/10 transition-colors duration-300">
+                <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 glass-panel p-6 sm:p-8 md:p-12 rounded-[2rem] shadow-2xl transition-all duration-300">
                     <div className="w-full lg:w-1/2 flex justify-center order-first lg:order-none">
                         <img
                             draggable="false"
@@ -54,7 +56,7 @@ const Contact = () => {
                     </div>
 
                     <div className="w-full lg:w-1/2">
-                        <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
+                        <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
                             <div className="relative group">
                                 <input
                                     type="text"
@@ -63,9 +65,9 @@ const Contact = () => {
                                     onChange={handleChange}
                                     placeholder="Name"
                                     required
-                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base"
+                                    className="w-full pl-10 pr-4 py-3 bg-transparent border-b-2 border-black/10 dark:border-white/10 focus:border-[#00c3ff] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base placeholder-gray-500 peer"
                                 />
-                                <i className="fas fa-user absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
+                                <i className="fas fa-user absolute left-2 top-1/2 -translate-y-1/2 text-gray-500 peer-focus:text-[#00c3ff] transition-colors"></i>
                             </div>
 
                             <div className="relative group">
@@ -76,9 +78,9 @@ const Contact = () => {
                                     onChange={handleChange}
                                     placeholder="Email"
                                     required
-                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base"
+                                    className="w-full pl-10 pr-4 py-3 bg-transparent border-b-2 border-black/10 dark:border-white/10 focus:border-[#00c3ff] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base placeholder-gray-500 peer"
                                 />
-                                <i className="fas fa-envelope absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
+                                <i className="fas fa-envelope absolute left-2 top-1/2 -translate-y-1/2 text-gray-500 peer-focus:text-[#00c3ff] transition-colors"></i>
                             </div>
 
                             <div className="relative group">
@@ -88,9 +90,9 @@ const Contact = () => {
                                     value={formData.phone}
                                     onChange={handleChange}
                                     placeholder="Phone"
-                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base"
+                                    className="w-full pl-10 pr-4 py-3 bg-transparent border-b-2 border-black/10 dark:border-white/10 focus:border-[#00c3ff] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium text-sm md:text-base placeholder-gray-500 peer"
                                 />
-                                <i className="fas fa-phone-alt absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
+                                <i className="fas fa-phone-alt absolute left-2 top-1/2 -translate-y-1/2 text-gray-500 peer-focus:text-[#00c3ff] transition-colors"></i>
                             </div>
 
                             <div className="relative group">
@@ -100,18 +102,20 @@ const Contact = () => {
                                     onChange={handleChange}
                                     placeholder="Message"
                                     required
-                                    rows="4"
-                                    className="w-full pl-12 pr-4 py-3 md:py-4 rounded-xl bg-white dark:bg-[#0a192f] border border-gray-300 dark:border-white/10 focus:border-[#ff7b00] dark:focus:border-[#ff7b00] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium resize-none text-sm md:text-base"
+                                    rows="1"
+                                    className="w-full pl-10 pr-4 py-3 bg-transparent border-b-2 border-black/10 dark:border-white/10 focus:border-[#00c3ff] outline-none transition-all duration-300 text-gray-900 dark:text-white font-medium resize-none text-sm md:text-base placeholder-gray-500 peer min-h-[100px]"
                                 ></textarea>
-                                <i className="fas fa-comment-dots absolute left-4 top-5 text-gray-500 group-focus-within:text-[#ff7b00] transition-colors"></i>
+                                <i className="fas fa-comment-dots absolute left-2 top-4 text-gray-500 peer-focus:text-[#00c3ff] transition-colors"></i>
                             </div>
 
-                            <div className="flex flex-col items-center gap-4 pt-2">
+                            <div className="flex flex-col items-center gap-4 pt-6">
                                 <button
                                     type="submit"
-                                    className="w-full bg-[#ff7b00] hover:bg-[#e66f00] text-white py-3 md:py-4 rounded-xl font-bold text-base md:text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex justify-center items-center gap-2 group"
+                                    className="w-full relative group inline-flex items-center justify-center gap-3 py-4 rounded-full bg-transparent overflow-hidden transition-all duration-300 border border-[#00c3ff]/30 hover:border-[#00c3ff] dark:hover:border-transparent dark:border-white/10"
                                 >
-                                    Send Message <i className="fa fa-paper-plane group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+                                    <div className="absolute inset-0 bg-gradient-to-r from-[#00c3ff] to-[#ff7b00] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                    <span className="relative z-10 font-bold text-gray-900 dark:text-white group-hover:text-white tracking-wide transition-colors">Send Message</span>
+                                    <i className="fa fa-paper-plane relative z-10 text-[#00c3ff] group-hover:text-white group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
                                 </button>
                                 {status.msg && (
                                     <span className={`font-bold mt-2 ${status.type === 'success' ? 'text-green-400' : status.type === 'error' ? 'text-red-400' : 'text-blue-400'}`}>

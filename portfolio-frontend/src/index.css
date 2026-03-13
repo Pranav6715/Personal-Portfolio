@@ -15,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-slate-50 text-gray-900 dark:bg-[#030014] dark:text-[#f3f4f6];
+  @apply bg-[#f8fafc] text-gray-900 dark:bg-[#030014] dark:text-[#f3f4f6];
 }
 
 @layer utilities {

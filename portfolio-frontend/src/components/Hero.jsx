@@ -12,7 +12,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center justify-start bg-slate-50 dark:bg-[#0a192f] transition-colors duration-300 overflow-hidden pt-20">
+        <section id="home" className="relative min-h-screen flex items-center justify-start bg-transparent transition-colors duration-300 overflow-hidden pt-20">
             {/* Particles Background */}
             <Particles
                 id="tsparticles"
@@ -45,11 +45,10 @@ const Hero = () => {
             />
 
             <div className="container mx-auto px-6 md:px-12 z-10 text-gray-900 dark:text-white transition-colors duration-300">
-                <div className="max-w-4xl">
+                <div className="max-w-4xl relative z-10">
                     <h2 className="text-gray-800 dark:text-gray-300 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight transition-colors duration-300">
                         Hi There<br />
-                        <span className="text-gray-900 dark:text-white transition-colors duration-300">I'm Pranav </span>
-                        <span className="text-[#ff7b00]">Ghaytadkar</span>
+                        <span className="text-gray-900 dark:text-white transition-colors duration-300">I'm <span className="bg-gradient-to-r from-[#00c3ff] to-[#ff7b00] bg-clip-text text-transparent">Pranav Ghaytadkar</span></span>
                     </h2>
                     <p className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 font-medium mb-8 transition-colors duration-300">
                         i am into {' '}
@@ -66,20 +65,21 @@ const Hero = () => {
                         </span>
                     </p>
 
-                    <a href="#about" className="inline-flex items-center gap-2 bg-[#ff7b00] hover:bg-[#e66f00] text-white px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:shadow-[0_0_20px_rgba(255,123,0,0.4)] transition-all duration-300 transform hover:scale-105">
-                        <span>About Me</span>
-                        <i className="fas fa-arrow-circle-down"></i>
+                    <a href="#about" className="mt-4 relative group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-transparent overflow-hidden transition-all duration-300 border border-[#ff7b00]/30 hover:border-[#ff7b00] dark:hover:border-transparent dark:border-white/10 shadow-[0_0_20px_rgba(255,123,0,0.15)]">
+                        <div className="absolute inset-0 bg-gradient-to-r from-[#ff7b00] to-[#00c3ff] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <span className="relative z-10 font-bold text-gray-900 dark:text-white group-hover:text-white tracking-wide transition-colors">About Me</span>
+                        <i className="fa fa-arrow-circle-down relative z-10 text-[#ff7b00] group-hover:text-white group-hover:animate-bounce transition-colors"></i>
                     </a>
 
-                    <div className="mt-8 flex gap-4">
-                        <a href="https://www.linkedin.com/in/pranav-ghaytadkar-01b17521a/" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-gray-200 dark:bg-white/10 text-gray-800 dark:text-white flex justify-center items-center text-2xl hover:text-white hover:bg-[#007bb5] dark:hover:bg-[#007bb5] hover:scale-110 transition-all duration-300 border border-gray-300 dark:border-white/20">
-                            <i className="fab fa-linkedin"></i>
+                    <div className="mt-10 flex gap-5">
+                        <a href="https://www.linkedin.com/in/pranav-ghaytadkar-01b17521a/" target="_blank" rel="noreferrer" className="glass flex justify-center items-center w-14 h-14 rounded-full text-2xl text-gray-800 dark:text-gray-300 hover:text-[#00c3ff] hover:scale-110 hover:-translate-y-1 transition-all duration-300 group">
+                            <i className="fab fa-linkedin group-hover:drop-shadow-[0_0_8px_rgba(0,195,255,0.8)] transition-all duration-300"></i>
                         </a>
-                        <a href="https://github.com/Pranav6715" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-gray-200 dark:bg-white/10 text-gray-800 dark:text-white flex justify-center items-center text-2xl hover:text-white hover:bg-gray-800 dark:hover:bg-gray-800 hover:scale-110 transition-all duration-300 border border-gray-300 dark:border-white/20">
-                            <i className="fab fa-github"></i>
+                        <a href="https://github.com/Pranav6715" target="_blank" rel="noreferrer" className="glass flex justify-center items-center w-14 h-14 rounded-full text-2xl text-gray-800 dark:text-gray-300 hover:text-white dark:hover:text-[#00c3ff] hover:scale-110 hover:-translate-y-1 transition-all duration-300 group">
+                            <i className="fab fa-github group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] dark:group-hover:drop-shadow-[0_0_8px_rgba(0,195,255,0.8)] transition-all duration-300"></i>
                         </a>
-                        <a href="https://instagram.com/pranavghaytadkar_" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-gray-200 dark:bg-white/10 text-gray-800 dark:text-white flex justify-center items-center text-2xl hover:text-white hover:bg-gradient-to-r hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:scale-110 transition-all duration-300 border border-gray-300 dark:border-white/20">
-                            <i className="fab fa-instagram"></i>
+                        <a href="https://instagram.com/pranavghaytadkar_" target="_blank" rel="noreferrer" className="glass flex justify-center items-center w-14 h-14 rounded-full text-2xl text-gray-800 dark:text-gray-300 hover:text-[#ff7b00] hover:scale-110 hover:-translate-y-1 transition-all duration-300 group">
+                            <i className="fab fa-instagram group-hover:drop-shadow-[0_0_8px_rgba(255,123,0,0.8)] transition-all duration-300"></i>
                         </a>
                     </div>
                 </div>

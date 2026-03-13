@@ -5,10 +5,10 @@ const ThemeContext = createContext();
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-    // Check local storage for theme, otherwise default to dark mode for this premium portfolio
+    // Check local storage for theme, otherwise default to light mode (false) for this premium portfolio
     const [isDarkMode, setIsDarkMode] = useState(() => {
         const savedTheme = localStorage.getItem('theme');
-        return savedTheme ? savedTheme === 'dark' : true;
+        return savedTheme ? savedTheme === 'dark' : false;
     });
 
     useEffect(() => {

@@ -11,7 +11,7 @@ const ProjectsPage = () => {
     }, []);
 
     return (
-        <div className="pt-24 pb-20 bg-slate-50 dark:bg-[#030014] min-h-screen transition-colors duration-300 relative">
+        <div className="pt-24 pb-20 bg-[#f8fafc] dark:bg-[#030014] min-h-screen transition-colors duration-300 relative">
             <div className="absolute top-0 right-[-10%] w-[500px] h-[500px] bg-[#2506ad]/10 dark:bg-[#2506ad]/5 rounded-full blur-[120px] pointer-events-none"></div>
 
             <div className="container mx-auto px-4 sm:px-6 md:px-12 relative z-10">

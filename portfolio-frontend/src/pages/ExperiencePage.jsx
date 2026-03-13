@@ -29,7 +29,7 @@ const ExperiencePage = () => {
     }, []);
 
     return (
-        <div className="pt-24 pb-20 bg-slate-50 dark:bg-[#030014] min-h-screen transition-colors duration-300">
+        <div className="pt-24 pb-20 bg-[#f8fafc] dark:bg-[#030014] min-h-screen transition-colors duration-300">
             <div className="container mx-auto px-4 sm:px-6 md:px-12">
                 <div className="flex items-center gap-4 mb-10 sm:mb-12">
                     <Link to="/" className="p-2 sm:p-3 rounded-full bg-white dark:bg-white/5 text-gray-800 dark:text-[#00c3ff] shadow-md hover:shadow-lg transition-all transform hover:-translate-x-1 border border-gray-200 dark:border-white/10 hover:text-[#00c3ff]">
@@ -45,7 +45,7 @@ const ExperiencePage = () => {
                     {experiences.map((exp, index) => (
                         <div key={index} className="relative pl-6 sm:pl-10 group">
                             {/* Dot */}
-                            <div className="absolute top-0 -left-[14px] w-6 h-6 bg-slate-50 dark:bg-[#030014] border-4 border-[#00c3ff] rounded-full group-hover:scale-125 transition-transform duration-300"></div>
+                            <div className="absolute top-0 -left-[14px] w-6 h-6 bg-[#f8fafc] dark:bg-[#030014] border-4 border-[#00c3ff] rounded-full group-hover:scale-125 transition-transform duration-300"></div>
 
                             <div className="bg-white dark:bg-white/5 p-5 sm:p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 dark:border-white/10 hover:shadow-2xl hover:border-[#00c3ff] dark:hover:border-[#00c3ff] transition-all duration-300 transform hover:-translate-y-1">
                                 <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-2 transition-colors duration-300">{exp.company}</h3>
