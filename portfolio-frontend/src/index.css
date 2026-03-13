@@ -15,22 +15,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply bg-slate-50 text-gray-900 dark:bg-[#030014] dark:text-[#f3f4f6];
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-black/[0.03] dark:bg-white/[0.03] backdrop-blur-[12px] border border-black/[0.1] dark:border-white/[0.05];
+  }
+  
+  .glass-panel {
+    @apply bg-white/60 dark:bg-black/40 backdrop-blur-[16px] border border-black/[0.05] dark:border-white/[0.08] shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] dark:shadow-[0_8px_32px_0_rgba(0,0,0,0.36)];
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(255, 123, 0, 0.5);
+  }
+
+  .text-glow-blue {
+    text-shadow: 0 0 20px rgba(0, 195, 255, 0.5);
+  }
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #111;
+  @apply bg-slate-200 dark:bg-[#030014];
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2506ad;
-  border-radius: 5px;
+  background: rgba(255, 123, 0, 0.3);
+  border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff7b00;
+  background: rgba(255, 123, 0, 0.8);
 }
