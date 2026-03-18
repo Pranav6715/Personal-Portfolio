@@ -51,7 +51,7 @@ const About = () => {
 
                         <div className="pt-6 flex justify-center">
                             <a
-                                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:b4589fbe-e63b-4c52-8d68-524de3548c08"
+                                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:9648311c-99f8-43c7-ac27-aa31be76834e"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="relative group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-transparent overflow-hidden transition-all duration-300 border border-[#00c3ff]/30 hover:border-[#00c3ff] dark:hover:border-transparent dark:border-white/10"
