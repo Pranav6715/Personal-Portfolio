@@ -9,15 +9,6 @@
     }
   },
   {
-    "name": "University Management System",
-    "desc": "University-Management-System Using Java",
-    "image": "University",
-    "category": "javaprojects",
-    "links": {
-      "code": "https://github.com/Pranav6715/University-Management-System"
-    }
-  },
-  {
     "name": "Personal-Portfolio",
     "desc": "Portfolio Using HTML CSS JavaScript",
     "image": "Personal-portfolio",
@@ -33,15 +24,6 @@
     "category": "basicweb",
     "links": {
       "code": "https://github.com/Pranav6715/Spotify-Clone"
-    }
-  },
-  {
-    "name": "Chat-App",
-    "desc": "real time chatapp",
-    "image": "chat-app",
-    "category": "javaprojects",
-    "links": {
-      "code": "https://github.com/Pranav6715/chat-app"
     }
   },
   {
